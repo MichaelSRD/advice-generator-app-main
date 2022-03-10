@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title> Advice generator app</title>
+</head>
+<body>
+<div class="main">
+<div class="card">
+  <div id="titulo">
+    <p>ADVICE # <span id="iden" >117</span> </p>
+  </div>   
+   <div id="consejo">
+     <p id="conse"></p>
+   </div>
+   <img class="linea" src="images/pattern-divider-mobile.svg" alt="">
+   <div id="dado" onclick="cargarconsejo()">
+     <img class="imgboton" src="images/icon-dice.svg" alt="" >
+   </div>
+</div>
+
+</div>
+
+  
+  
+ <script src="api.js"></script>
+</body>
+</html>
